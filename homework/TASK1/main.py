@@ -1,4 +1,4 @@
-with open("C:/Users/ariel/OneDrive/Рабочий стол/homework_5_python/homework/TASK1/text.txt", "r") as fin:
+with open("text.txt", "r") as fin:
     for line in fin:
         words = line.split()
         for word in words:
